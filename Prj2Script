@@ -1,0 +1,2548 @@
+Script started on Wed 06 Apr 2011 11:42:06 PM EDT
+fork {~/spr11/os/Prj2} >
+fork {~/spr11/os/Prj2} > make
+g++ bb.c -o bb -pthread
+g++ mh.c -o mh -pthread
+g++ airline.c -o airline -pthread
+fork {~/spr11/os/Prj2} > ./bb 4 5 15
+
+//Running the program 1. for 1000 produced characters
+
+You have given correct number of Arguments
+
+ Producers	 =	4
+ Consumers	 =	5
+ Bounded Buffer	 =	15
+
+Producer 1	produced :	1
+Producer 1	produced :	2
+Producer 1	produced :	3
+Producer 1	produced :	4
+Producer 1	produced :	5
+Producer 1	produced :	6
+Producer 1	produced :	7
+Producer 1	produced :	8
+Producer 1	produced :	9
+Producer 1	produced :	10
+Producer 1	produced :	11
+Producer 1	produced :	12
+Producer 2	produced :	13
+Consumer 5	consumed :	1
+Consumer 5	consumed :	2
+Consumer 5	consumed :	3
+Consumer 5	consumed :	4
+Consumer 5	consumed :	5
+Consumer 5	consumed :	6
+Consumer 5	consumed :	7
+Producer 1	produced :	14
+Producer 1	produced :	15
+Producer 1	produced :	16
+Producer 1	produced :	17
+Producer 1	produced :	18
+Producer 1	produced :	19
+Consumer 1	consumed :	8
+Consumer 1	consumed :	9
+Consumer 1	consumed :	10
+Consumer 1	consumed :	11
+Consumer 1	consumed :	12
+Consumer 1	consumed :	13
+Consumer 1	consumed :	14
+Consumer 1	consumed :	15
+Producer 1	produced :	20
+Producer 1	produced :	21
+Producer 1	produced :	22
+Producer 1	produced :	23
+Producer 1	produced :	24
+Producer 1	produced :	25
+Producer 1	produced :	26
+Producer 1	produced :	27
+Consumer 4	consumed :	16
+Consumer 4	consumed :	17
+Consumer 4	consumed :	18
+Consumer 4	consumed :	19
+Consumer 4	consumed :	20
+Consumer 4	consumed :	21
+Consumer 4	consumed :	22
+Consumer 4	consumed :	23
+Consumer 1	consumed :	24
+Producer 1	produced :	28
+Producer 1	produced :	29
+Producer 1	produced :	30
+Producer 1	produced :	31
+Producer 1	produced :	32
+Producer 1	produced :	33
+Producer 1	produced :	34
+Producer 1	produced :	35
+Producer 1	produced :	36
+Consumer 2	consumed :	25
+Consumer 2	consumed :	26
+Consumer 2	consumed :	27
+Consumer 2	consumed :	28
+Consumer 2	consumed :	29
+Consumer 2	consumed :	30
+Consumer 2	consumed :	31
+Consumer 2	consumed :	32
+Consumer 1	consumed :	33
+Producer 1	produced :	37
+Producer 1	produced :	38
+Producer 1	produced :	39
+Producer 1	produced :	40
+Producer 1	produced :	41
+Producer 1	produced :	42
+Producer 1	produced :	43
+Producer 1	produced :	44
+Producer 1	produced :	45
+Producer 3	produced :	46
+Consumer 1	consumed :	34
+Consumer 1	consumed :	35
+Consumer 1	consumed :	36
+Consumer 1	consumed :	37
+Consumer 1	consumed :	38
+Consumer 1	consumed :	39
+Consumer 1	consumed :	40
+Consumer 1	consumed :	41
+Consumer 1	consumed :	42
+Producer 4	produced :	47
+Producer 4	produced :	48
+Producer 4	produced :	49
+Producer 4	produced :	50
+Producer 4	produced :	51
+Producer 4	produced :	52
+Producer 4	produced :	53
+Producer 4	produced :	54
+Producer 3	produced :	55
+Consumer 1	consumed :	43
+Consumer 1	consumed :	44
+Consumer 1	consumed :	45
+Consumer 1	consumed :	46
+Consumer 1	consumed :	47
+Consumer 1	consumed :	48
+Consumer 1	consumed :	49
+Consumer 1	consumed :	50
+Consumer 1	consumed :	51
+Consumer 4	consumed :	52
+Producer 3	produced :	56
+Producer 3	produced :	57
+Producer 3	produced :	58
+Producer 3	produced :	59
+Producer 3	produced :	60
+Producer 3	produced :	61
+Producer 3	produced :	62
+Producer 3	produced :	63
+Producer 3	produced :	64
+Consumer 2	consumed :	53
+Consumer 2	consumed :	54
+Consumer 2	consumed :	55
+Consumer 2	consumed :	56
+Consumer 2	consumed :	57
+Consumer 2	consumed :	58
+Consumer 2	consumed :	59
+Consumer 2	consumed :	60
+Consumer 4	consumed :	61
+Producer 3	produced :	65
+Producer 3	produced :	66
+Producer 3	produced :	67
+Producer 3	produced :	68
+Producer 3	produced :	69
+Producer 3	produced :	70
+Producer 3	produced :	71
+Producer 3	produced :	72
+Producer 3	produced :	73
+Producer 1	produced :	74
+Consumer 4	consumed :	62
+Consumer 4	consumed :	63
+Consumer 4	consumed :	64
+Consumer 4	consumed :	65
+Consumer 4	consumed :	66
+Consumer 4	consumed :	67
+Consumer 4	consumed :	68
+Consumer 4	consumed :	69
+Consumer 4	consumed :	70
+Producer 4	produced :	75
+Producer 4	produced :	76
+Producer 4	produced :	77
+Producer 4	produced :	78
+Producer 4	produced :	79
+Producer 4	produced :	80
+Producer 4	produced :	81
+Producer 4	produced :	82
+Producer 1	produced :	83
+Consumer 4	consumed :	71
+Consumer 4	consumed :	72
+Consumer 4	consumed :	73
+Consumer 4	consumed :	74
+Consumer 4	consumed :	75
+Consumer 4	consumed :	76
+Consumer 4	consumed :	77
+Consumer 4	consumed :	78
+Consumer 4	consumed :	79
+Consumer 1	consumed :	80
+Producer 1	produced :	84
+Producer 1	produced :	85
+Producer 1	produced :	86
+Producer 1	produced :	87
+Producer 1	produced :	88
+Producer 1	produced :	89
+Producer 1	produced :	90
+Producer 1	produced :	91
+Producer 1	produced :	92
+Consumer 2	consumed :	81
+Consumer 2	consumed :	82
+Consumer 2	consumed :	83
+Consumer 2	consumed :	84
+Consumer 2	consumed :	85
+Consumer 2	consumed :	86
+Consumer 2	consumed :	87
+Consumer 2	consumed :	88
+Consumer 1	consumed :	89
+Producer 1	produced :	93
+Producer 1	produced :	94
+Producer 1	produced :	95
+Producer 1	produced :	96
+Producer 1	produced :	97
+Producer 1	produced :	98
+Producer 1	produced :	99
+Producer 1	produced :	100
+Producer 1	produced :	101
+Producer 3	produced :	102
+Consumer 1	consumed :	90
+Consumer 1	consumed :	91
+Consumer 1	consumed :	92
+Consumer 1	consumed :	93
+Consumer 1	consumed :	94
+Consumer 1	consumed :	95
+Consumer 1	consumed :	96
+Consumer 1	consumed :	97
+Consumer 1	consumed :	98
+Producer 4	produced :	103
+Producer 4	produced :	104
+Producer 4	produced :	105
+Producer 4	produced :	106
+Producer 4	produced :	107
+Producer 4	produced :	108
+Producer 4	produced :	109
+Producer 4	produced :	110
+Producer 3	produced :	111
+Consumer 1	consumed :	99
+Consumer 1	consumed :	100
+Consumer 1	consumed :	101
+Consumer 1	consumed :	102
+Consumer 1	consumed :	103
+Consumer 1	consumed :	104
+Consumer 1	consumed :	105
+Consumer 1	consumed :	106
+Consumer 1	consumed :	107
+Consumer 4	consumed :	108
+Producer 3	produced :	112
+Producer 3	produced :	113
+Producer 3	produced :	114
+Producer 3	produced :	115
+Producer 3	produced :	116
+Producer 3	produced :	117
+Producer 3	produced :	118
+Producer 3	produced :	119
+Producer 3	produced :	120
+Consumer 2	consumed :	109
+Consumer 2	consumed :	110
+Consumer 2	consumed :	111
+Consumer 2	consumed :	112
+Consumer 2	consumed :	113
+Consumer 2	consumed :	114
+Consumer 2	consumed :	115
+Consumer 2	consumed :	116
+Consumer 4	consumed :	117
+Producer 3	produced :	121
+Producer 3	produced :	122
+Producer 3	produced :	123
+Producer 3	produced :	124
+Producer 3	produced :	125
+Producer 3	produced :	126
+Producer 3	produced :	127
+Producer 3	produced :	128
+Producer 3	produced :	129
+Producer 1	produced :	130
+Consumer 4	consumed :	118
+Consumer 4	consumed :	119
+Consumer 4	consumed :	120
+Consumer 4	consumed :	121
+Consumer 4	consumed :	122
+Consumer 4	consumed :	123
+Consumer 4	consumed :	124
+Consumer 4	consumed :	125
+Consumer 4	consumed :	126
+Producer 4	produced :	131
+Producer 4	produced :	132
+Producer 4	produced :	133
+Producer 4	produced :	134
+Producer 4	produced :	135
+Producer 4	produced :	136
+Producer 4	produced :	137
+Producer 4	produced :	138
+Producer 1	produced :	139
+Consumer 4	consumed :	127
+Consumer 4	consumed :	128
+Consumer 4	consumed :	129
+Consumer 4	consumed :	130
+Consumer 4	consumed :	131
+Consumer 4	consumed :	132
+Consumer 4	consumed :	133
+Consumer 4	consumed :	134
+Consumer 4	consumed :	135
+Consumer 1	consumed :	136
+Producer 1	produced :	140
+Producer 1	produced :	141
+Producer 1	produced :	142
+Producer 1	produced :	143
+Producer 1	produced :	144
+Producer 1	produced :	145
+Producer 1	produced :	146
+Producer 1	produced :	147
+Producer 1	produced :	148
+Consumer 2	consumed :	137
+Consumer 2	consumed :	138
+Consumer 2	consumed :	139
+Consumer 2	consumed :	140
+Consumer 2	consumed :	141
+Consumer 2	consumed :	142
+Consumer 2	consumed :	143
+Consumer 2	consumed :	144
+Consumer 1	consumed :	145
+Producer 1	produced :	149
+Producer 1	produced :	150
+Producer 1	produced :	151
+Producer 1	produced :	152
+Producer 1	produced :	153
+Producer 1	produced :	154
+Producer 1	produced :	155
+Producer 1	produced :	156
+Producer 1	produced :	157
+Producer 3	produced :	158
+Consumer 1	consumed :	146
+Consumer 1	consumed :	147
+Consumer 1	consumed :	148
+Consumer 1	consumed :	149
+Consumer 1	consumed :	150
+Consumer 1	consumed :	151
+Consumer 1	consumed :	152
+Consumer 1	consumed :	153
+Consumer 1	consumed :	154
+Producer 4	produced :	159
+Producer 4	produced :	160
+Producer 4	produced :	161
+Producer 4	produced :	162
+Producer 4	produced :	163
+Producer 4	produced :	164
+Producer 4	produced :	165
+Producer 4	produced :	166
+Producer 3	produced :	167
+Consumer 1	consumed :	155
+Consumer 1	consumed :	156
+Consumer 1	consumed :	157
+Consumer 1	consumed :	158
+Consumer 1	consumed :	159
+Consumer 1	consumed :	160
+Consumer 1	consumed :	161
+Consumer 1	consumed :	162
+Consumer 1	consumed :	163
+Consumer 4	consumed :	164
+Producer 3	produced :	168
+Producer 3	produced :	169
+Producer 3	produced :	170
+Producer 3	produced :	171
+Producer 3	produced :	172
+Producer 3	produced :	173
+Producer 3	produced :	174
+Producer 3	produced :	175
+Producer 3	produced :	176
+Consumer 2	consumed :	165
+Consumer 2	consumed :	166
+Consumer 2	consumed :	167
+Consumer 2	consumed :	168
+Consumer 2	consumed :	169
+Consumer 2	consumed :	170
+Consumer 2	consumed :	171
+Consumer 2	consumed :	172
+Consumer 4	consumed :	173
+Producer 3	produced :	177
+Producer 3	produced :	178
+Producer 3	produced :	179
+Producer 3	produced :	180
+Producer 3	produced :	181
+Producer 3	produced :	182
+Producer 3	produced :	183
+Producer 3	produced :	184
+Producer 3	produced :	185
+Producer 1	produced :	186
+Consumer 4	consumed :	174
+Consumer 4	consumed :	175
+Consumer 4	consumed :	176
+Consumer 4	consumed :	177
+Consumer 4	consumed :	178
+Consumer 4	consumed :	179
+Consumer 4	consumed :	180
+Consumer 4	consumed :	181
+Consumer 4	consumed :	182
+Producer 4	produced :	187
+Producer 4	produced :	188
+Producer 4	produced :	189
+Producer 4	produced :	190
+Producer 4	produced :	191
+Producer 4	produced :	192
+Producer 4	produced :	193
+Producer 4	produced :	194
+Producer 1	produced :	195
+Consumer 4	consumed :	183
+Consumer 4	consumed :	184
+Consumer 4	consumed :	185
+Consumer 4	consumed :	186
+Consumer 4	consumed :	187
+Consumer 4	consumed :	188
+Consumer 4	consumed :	189
+Consumer 4	consumed :	190
+Consumer 4	consumed :	191
+Consumer 1	consumed :	192
+Producer 1	produced :	196
+Producer 1	produced :	197
+Producer 1	produced :	198
+Producer 1	produced :	199
+Producer 1	produced :	200
+Producer 1	produced :	201
+Producer 1	produced :	202
+Producer 1	produced :	203
+Producer 1	produced :	204
+Consumer 2	consumed :	193
+Consumer 2	consumed :	194
+Consumer 2	consumed :	195
+Consumer 2	consumed :	196
+Consumer 2	consumed :	197
+Consumer 2	consumed :	198
+Consumer 2	consumed :	199
+Consumer 2	consumed :	200
+Consumer 1	consumed :	201
+Producer 1	produced :	205
+Producer 1	produced :	206
+Producer 1	produced :	207
+Producer 1	produced :	208
+Producer 1	produced :	209
+Producer 1	produced :	210
+Producer 1	produced :	211
+Producer 1	produced :	212
+Producer 1	produced :	213
+Producer 3	produced :	214
+Consumer 1	consumed :	202
+Consumer 1	consumed :	203
+Consumer 1	consumed :	204
+Consumer 1	consumed :	205
+Consumer 1	consumed :	206
+Consumer 1	consumed :	207
+Consumer 1	consumed :	208
+Consumer 1	consumed :	209
+Consumer 1	consumed :	210
+Producer 4	produced :	215
+Producer 4	produced :	216
+Producer 4	produced :	217
+Producer 4	produced :	218
+Producer 4	produced :	219
+Producer 4	produced :	220
+Producer 4	produced :	221
+Producer 4	produced :	222
+Producer 3	produced :	223
+Consumer 1	consumed :	211
+Consumer 1	consumed :	212
+Consumer 1	consumed :	213
+Consumer 1	consumed :	214
+Consumer 1	consumed :	215
+Consumer 1	consumed :	216
+Consumer 1	consumed :	217
+Consumer 1	consumed :	218
+Consumer 1	consumed :	219
+Consumer 4	consumed :	220
+Producer 3	produced :	224
+Producer 3	produced :	225
+Producer 3	produced :	226
+Producer 3	produced :	227
+Producer 3	produced :	228
+Producer 3	produced :	229
+Producer 3	produced :	230
+Producer 3	produced :	231
+Producer 3	produced :	232
+Consumer 2	consumed :	221
+Consumer 2	consumed :	222
+Consumer 2	consumed :	223
+Consumer 2	consumed :	224
+Consumer 2	consumed :	225
+Consumer 2	consumed :	226
+Consumer 2	consumed :	227
+Consumer 2	consumed :	228
+Consumer 4	consumed :	229
+Producer 3	produced :	233
+Producer 3	produced :	234
+Producer 3	produced :	235
+Producer 3	produced :	236
+Producer 3	produced :	237
+Producer 3	produced :	238
+Producer 3	produced :	239
+Producer 3	produced :	240
+Producer 3	produced :	241
+Producer 1	produced :	242
+Consumer 4	consumed :	230
+Consumer 4	consumed :	231
+Consumer 4	consumed :	232
+Consumer 4	consumed :	233
+Consumer 4	consumed :	234
+Consumer 4	consumed :	235
+Consumer 4	consumed :	236
+Consumer 4	consumed :	237
+Consumer 4	consumed :	238
+Producer 4	produced :	243
+Producer 4	produced :	244
+Producer 4	produced :	245
+Producer 4	produced :	246
+Producer 4	produced :	247
+Producer 4	produced :	248
+Producer 4	produced :	249
+Producer 4	produced :	250
+Producer 1	produced :	251
+Consumer 4	consumed :	239
+Consumer 4	consumed :	240
+Consumer 4	consumed :	241
+Consumer 4	consumed :	242
+Consumer 4	consumed :	243
+Consumer 4	consumed :	244
+Consumer 4	consumed :	245
+Consumer 4	consumed :	246
+Consumer 4	consumed :	247
+Consumer 1	consumed :	248
+Producer 1	produced :	252
+Producer 1	produced :	253
+Producer 1	produced :	254
+Producer 1	produced :	255
+Producer 1	produced :	256
+Producer 1	produced :	257
+Producer 1	produced :	258
+Producer 1	produced :	259
+Producer 1	produced :	260
+Consumer 2	consumed :	249
+Consumer 2	consumed :	250
+Consumer 2	consumed :	251
+Consumer 2	consumed :	252
+Consumer 2	consumed :	253
+Consumer 2	consumed :	254
+Consumer 2	consumed :	255
+Consumer 2	consumed :	256
+Consumer 1	consumed :	257
+Producer 1	produced :	261
+Producer 1	produced :	262
+Producer 1	produced :	263
+Producer 1	produced :	264
+Producer 1	produced :	265
+Producer 1	produced :	266
+Producer 1	produced :	267
+Producer 1	produced :	268
+Producer 1	produced :	269
+Producer 3	produced :	270
+Consumer 1	consumed :	258
+Consumer 1	consumed :	259
+Consumer 1	consumed :	260
+Consumer 1	consumed :	261
+Consumer 1	consumed :	262
+Consumer 1	consumed :	263
+Consumer 1	consumed :	264
+Consumer 1	consumed :	265
+Consumer 1	consumed :	266
+Producer 4	produced :	271
+Producer 4	produced :	272
+Producer 4	produced :	273
+Producer 4	produced :	274
+Producer 4	produced :	275
+Producer 4	produced :	276
+Producer 4	produced :	277
+Producer 4	produced :	278
+Producer 3	produced :	279
+Consumer 1	consumed :	267
+Consumer 1	consumed :	268
+Consumer 1	consumed :	269
+Consumer 1	consumed :	270
+Consumer 1	consumed :	271
+Consumer 1	consumed :	272
+Consumer 1	consumed :	273
+Consumer 1	consumed :	274
+Consumer 1	consumed :	275
+Consumer 4	consumed :	276
+Producer 3	produced :	280
+Producer 3	produced :	281
+Producer 3	produced :	282
+Producer 3	produced :	283
+Producer 3	produced :	284
+Producer 3	produced :	285
+Producer 3	produced :	286
+Producer 3	produced :	287
+Producer 3	produced :	288
+Consumer 2	consumed :	277
+Consumer 2	consumed :	278
+Consumer 2	consumed :	279
+Consumer 2	consumed :	280
+Consumer 2	consumed :	281
+Consumer 2	consumed :	282
+Consumer 2	consumed :	283
+Consumer 2	consumed :	284
+Consumer 4	consumed :	285
+Producer 3	produced :	289
+Producer 3	produced :	290
+Producer 3	produced :	291
+Producer 3	produced :	292
+Producer 3	produced :	293
+Producer 3	produced :	294
+Producer 3	produced :	295
+Producer 3	produced :	296
+Producer 3	produced :	297
+Producer 1	produced :	298
+Consumer 4	consumed :	286
+Consumer 4	consumed :	287
+Consumer 4	consumed :	288
+Consumer 4	consumed :	289
+Consumer 4	consumed :	290
+Consumer 4	consumed :	291
+Consumer 4	consumed :	292
+Consumer 4	consumed :	293
+Consumer 4	consumed :	294
+Producer 4	produced :	299
+Producer 4	produced :	300
+Producer 4	produced :	301
+Producer 4	produced :	302
+Producer 4	produced :	303
+Producer 4	produced :	304
+Producer 4	produced :	305
+Producer 4	produced :	306
+Producer 1	produced :	307
+Consumer 4	consumed :	295
+Consumer 4	consumed :	296
+Consumer 4	consumed :	297
+Consumer 4	consumed :	298
+Consumer 4	consumed :	299
+Consumer 4	consumed :	300
+Consumer 4	consumed :	301
+Consumer 4	consumed :	302
+Consumer 4	consumed :	303
+Consumer 1	consumed :	304
+Producer 1	produced :	308
+Producer 1	produced :	309
+Producer 1	produced :	310
+Producer 1	produced :	311
+Producer 1	produced :	312
+Producer 1	produced :	313
+Producer 1	produced :	314
+Producer 1	produced :	315
+Producer 1	produced :	316
+Consumer 2	consumed :	305
+Consumer 2	consumed :	306
+Consumer 2	consumed :	307
+Consumer 2	consumed :	308
+Consumer 2	consumed :	309
+Consumer 2	consumed :	310
+Consumer 2	consumed :	311
+Consumer 2	consumed :	312
+Consumer 1	consumed :	313
+Producer 1	produced :	317
+Producer 1	produced :	318
+Producer 1	produced :	319
+Producer 1	produced :	320
+Producer 1	produced :	321
+Producer 1	produced :	322
+Producer 1	produced :	323
+Producer 1	produced :	324
+Producer 1	produced :	325
+Producer 3	produced :	326
+Consumer 1	consumed :	314
+Consumer 1	consumed :	315
+Consumer 1	consumed :	316
+Consumer 1	consumed :	317
+Consumer 1	consumed :	318
+Consumer 1	consumed :	319
+Consumer 1	consumed :	320
+Consumer 1	consumed :	321
+Consumer 1	consumed :	322
+Producer 4	produced :	327
+Producer 4	produced :	328
+Producer 4	produced :	329
+Producer 4	produced :	330
+Producer 4	produced :	331
+Producer 4	produced :	332
+Producer 4	produced :	333
+Producer 4	produced :	334
+Producer 3	produced :	335
+Consumer 1	consumed :	323
+Consumer 1	consumed :	324
+Consumer 1	consumed :	325
+Consumer 1	consumed :	326
+Consumer 1	consumed :	327
+Consumer 1	consumed :	328
+Consumer 1	consumed :	329
+Consumer 1	consumed :	330
+Consumer 1	consumed :	331
+Consumer 4	consumed :	332
+Producer 3	produced :	336
+Producer 3	produced :	337
+Producer 3	produced :	338
+Producer 3	produced :	339
+Producer 3	produced :	340
+Producer 3	produced :	341
+Producer 3	produced :	342
+Producer 3	produced :	343
+Producer 3	produced :	344
+Consumer 2	consumed :	333
+Consumer 2	consumed :	334
+Consumer 2	consumed :	335
+Consumer 2	consumed :	336
+Consumer 2	consumed :	337
+Consumer 2	consumed :	338
+Consumer 2	consumed :	339
+Consumer 2	consumed :	340
+Consumer 4	consumed :	341
+Producer 3	produced :	345
+Producer 3	produced :	346
+Producer 3	produced :	347
+Producer 3	produced :	348
+Producer 3	produced :	349
+Producer 3	produced :	350
+Producer 3	produced :	351
+Producer 3	produced :	352
+Producer 3	produced :	353
+Producer 1	produced :	354
+Consumer 4	consumed :	342
+Consumer 4	consumed :	343
+Consumer 4	consumed :	344
+Consumer 4	consumed :	345
+Consumer 4	consumed :	346
+Consumer 4	consumed :	347
+Consumer 4	consumed :	348
+Consumer 4	consumed :	349
+Consumer 4	consumed :	350
+Producer 4	produced :	355
+Producer 4	produced :	356
+Producer 4	produced :	357
+Producer 4	produced :	358
+Producer 4	produced :	359
+Producer 4	produced :	360
+Producer 4	produced :	361
+Producer 4	produced :	362
+Producer 1	produced :	363
+Consumer 4	consumed :	351
+Consumer 4	consumed :	352
+Consumer 4	consumed :	353
+Consumer 4	consumed :	354
+Consumer 4	consumed :	355
+Consumer 4	consumed :	356
+Consumer 4	consumed :	357
+Consumer 4	consumed :	358
+Consumer 4	consumed :	359
+Consumer 1	consumed :	360
+Producer 1	produced :	364
+Producer 1	produced :	365
+Producer 1	produced :	366
+Producer 1	produced :	367
+Producer 1	produced :	368
+Producer 1	produced :	369
+Producer 1	produced :	370
+Producer 1	produced :	371
+Producer 1	produced :	372
+Consumer 2	consumed :	361
+Consumer 2	consumed :	362
+Consumer 2	consumed :	363
+Consumer 2	consumed :	364
+Consumer 2	consumed :	365
+Consumer 2	consumed :	366
+Consumer 2	consumed :	367
+Consumer 2	consumed :	368
+Consumer 1	consumed :	369
+Producer 1	produced :	373
+Producer 1	produced :	374
+Producer 1	produced :	375
+Producer 1	produced :	376
+Producer 1	produced :	377
+Producer 1	produced :	378
+Producer 1	produced :	379
+Producer 1	produced :	380
+Producer 1	produced :	381
+Producer 3	produced :	382
+Consumer 1	consumed :	370
+Consumer 1	consumed :	371
+Consumer 1	consumed :	372
+Consumer 1	consumed :	373
+Consumer 1	consumed :	374
+Consumer 1	consumed :	375
+Consumer 1	consumed :	376
+Consumer 1	consumed :	377
+Consumer 1	consumed :	378
+Producer 4	produced :	383
+Producer 4	produced :	384
+Producer 4	produced :	385
+Producer 4	produced :	386
+Producer 4	produced :	387
+Producer 4	produced :	388
+Producer 4	produced :	389
+Producer 4	produced :	390
+Producer 3	produced :	391
+Consumer 1	consumed :	379
+Consumer 1	consumed :	380
+Consumer 1	consumed :	381
+Consumer 1	consumed :	382
+Consumer 1	consumed :	383
+Consumer 1	consumed :	384
+Consumer 1	consumed :	385
+Consumer 1	consumed :	386
+Consumer 1	consumed :	387
+Consumer 4	consumed :	388
+Producer 3	produced :	392
+Producer 3	produced :	393
+Producer 3	produced :	394
+Producer 3	produced :	395
+Producer 3	produced :	396
+Producer 3	produced :	397
+Producer 3	produced :	398
+Producer 3	produced :	399
+Producer 3	produced :	400
+Consumer 2	consumed :	389
+Consumer 2	consumed :	390
+Consumer 2	consumed :	391
+Consumer 2	consumed :	392
+Consumer 2	consumed :	393
+Consumer 2	consumed :	394
+Consumer 2	consumed :	395
+Consumer 2	consumed :	396
+Consumer 4	consumed :	397
+Producer 3	produced :	401
+Producer 3	produced :	402
+Producer 3	produced :	403
+Producer 3	produced :	404
+Producer 3	produced :	405
+Producer 3	produced :	406
+Producer 3	produced :	407
+Producer 3	produced :	408
+Producer 3	produced :	409
+Producer 1	produced :	410
+Consumer 4	consumed :	398
+Consumer 4	consumed :	399
+Consumer 4	consumed :	400
+Consumer 4	consumed :	401
+Consumer 4	consumed :	402
+Consumer 4	consumed :	403
+Consumer 4	consumed :	404
+Consumer 4	consumed :	405
+Consumer 4	consumed :	406
+Producer 4	produced :	411
+Producer 4	produced :	412
+Producer 4	produced :	413
+Producer 4	produced :	414
+Producer 4	produced :	415
+Producer 4	produced :	416
+Producer 4	produced :	417
+Producer 4	produced :	418
+Producer 1	produced :	419
+Consumer 4	consumed :	407
+Consumer 4	consumed :	408
+Consumer 4	consumed :	409
+Consumer 4	consumed :	410
+Consumer 4	consumed :	411
+Consumer 4	consumed :	412
+Consumer 4	consumed :	413
+Consumer 4	consumed :	414
+Consumer 4	consumed :	415
+Consumer 1	consumed :	416
+Producer 1	produced :	420
+Producer 1	produced :	421
+Producer 1	produced :	422
+Producer 1	produced :	423
+Producer 1	produced :	424
+Producer 1	produced :	425
+Producer 1	produced :	426
+Producer 1	produced :	427
+Producer 1	produced :	428
+Consumer 2	consumed :	417
+Consumer 2	consumed :	418
+Consumer 2	consumed :	419
+Consumer 2	consumed :	420
+Consumer 2	consumed :	421
+Consumer 2	consumed :	422
+Consumer 2	consumed :	423
+Consumer 2	consumed :	424
+Consumer 1	consumed :	425
+Producer 1	produced :	429
+Producer 1	produced :	430
+Producer 1	produced :	431
+Producer 1	produced :	432
+Producer 1	produced :	433
+Producer 1	produced :	434
+Producer 1	produced :	435
+Producer 1	produced :	436
+Producer 1	produced :	437
+Producer 3	produced :	438
+Consumer 1	consumed :	426
+Consumer 1	consumed :	427
+Consumer 1	consumed :	428
+Consumer 1	consumed :	429
+Consumer 1	consumed :	430
+Consumer 1	consumed :	431
+Consumer 1	consumed :	432
+Consumer 1	consumed :	433
+Consumer 1	consumed :	434
+Producer 4	produced :	439
+Producer 4	produced :	440
+Producer 4	produced :	441
+Producer 4	produced :	442
+Producer 4	produced :	443
+Producer 4	produced :	444
+Producer 4	produced :	445
+Producer 4	produced :	446
+Producer 3	produced :	447
+Consumer 1	consumed :	435
+Consumer 1	consumed :	436
+Consumer 1	consumed :	437
+Consumer 1	consumed :	438
+Consumer 1	consumed :	439
+Consumer 1	consumed :	440
+Consumer 1	consumed :	441
+Consumer 1	consumed :	442
+Consumer 1	consumed :	443
+Consumer 4	consumed :	444
+Producer 3	produced :	448
+Producer 3	produced :	449
+Producer 3	produced :	450
+Producer 3	produced :	451
+Producer 3	produced :	452
+Producer 3	produced :	453
+Producer 3	produced :	454
+Producer 3	produced :	455
+Producer 3	produced :	456
+Consumer 2	consumed :	445
+Consumer 2	consumed :	446
+Consumer 2	consumed :	447
+Consumer 2	consumed :	448
+Consumer 2	consumed :	449
+Consumer 2	consumed :	450
+Consumer 2	consumed :	451
+Consumer 2	consumed :	452
+Consumer 4	consumed :	453
+Producer 3	produced :	457
+Producer 3	produced :	458
+Producer 3	produced :	459
+Producer 3	produced :	460
+Producer 3	produced :	461
+Producer 3	produced :	462
+Producer 3	produced :	463
+Producer 3	produced :	464
+Producer 3	produced :	465
+Producer 1	produced :	466
+Consumer 4	consumed :	454
+Consumer 4	consumed :	455
+Consumer 4	consumed :	456
+Consumer 4	consumed :	457
+Consumer 4	consumed :	458
+Consumer 4	consumed :	459
+Consumer 4	consumed :	460
+Consumer 4	consumed :	461
+Consumer 4	consumed :	462
+Producer 4	produced :	467
+Producer 4	produced :	468
+Producer 4	produced :	469
+Producer 4	produced :	470
+Producer 4	produced :	471
+Producer 4	produced :	472
+Producer 4	produced :	473
+Producer 4	produced :	474
+Producer 1	produced :	475
+Consumer 4	consumed :	463
+Consumer 4	consumed :	464
+Consumer 4	consumed :	465
+Consumer 4	consumed :	466
+Consumer 4	consumed :	467
+Consumer 4	consumed :	468
+Consumer 4	consumed :	469
+Consumer 4	consumed :	470
+Consumer 4	consumed :	471
+Consumer 1	consumed :	472
+Producer 1	produced :	476
+Producer 1	produced :	477
+Producer 1	produced :	478
+Producer 1	produced :	479
+Producer 1	produced :	480
+Producer 1	produced :	481
+Producer 1	produced :	482
+Producer 1	produced :	483
+Producer 1	produced :	484
+Consumer 2	consumed :	473
+Consumer 2	consumed :	474
+Consumer 2	consumed :	475
+Consumer 2	consumed :	476
+Consumer 2	consumed :	477
+Consumer 2	consumed :	478
+Consumer 2	consumed :	479
+Consumer 2	consumed :	480
+Consumer 1	consumed :	481
+Producer 1	produced :	485
+Producer 1	produced :	486
+Producer 1	produced :	487
+Producer 1	produced :	488
+Producer 1	produced :	489
+Producer 1	produced :	490
+Producer 1	produced :	491
+Producer 1	produced :	492
+Producer 1	produced :	493
+Producer 3	produced :	494
+Consumer 1	consumed :	482
+Consumer 1	consumed :	483
+Consumer 1	consumed :	484
+Consumer 1	consumed :	485
+Consumer 1	consumed :	486
+Consumer 1	consumed :	487
+Consumer 1	consumed :	488
+Consumer 1	consumed :	489
+Consumer 1	consumed :	490
+Producer 4	produced :	495
+Producer 4	produced :	496
+Producer 4	produced :	497
+Producer 4	produced :	498
+Producer 4	produced :	499
+Producer 4	produced :	500
+Producer 4	produced :	501
+Producer 4	produced :	502
+Producer 3	produced :	503
+Consumer 1	consumed :	491
+Consumer 1	consumed :	492
+Consumer 1	consumed :	493
+Consumer 1	consumed :	494
+Consumer 1	consumed :	495
+Consumer 1	consumed :	496
+Consumer 1	consumed :	497
+Consumer 1	consumed :	498
+Consumer 1	consumed :	499
+Consumer 4	consumed :	500
+Producer 3	produced :	504
+Producer 3	produced :	505
+Producer 3	produced :	506
+Producer 3	produced :	507
+Producer 3	produced :	508
+Producer 3	produced :	509
+Producer 3	produced :	510
+Producer 3	produced :	511
+Producer 3	produced :	512
+Consumer 2	consumed :	501
+Consumer 2	consumed :	502
+Consumer 2	consumed :	503
+Consumer 2	consumed :	504
+Consumer 2	consumed :	505
+Consumer 2	consumed :	506
+Consumer 2	consumed :	507
+Consumer 2	consumed :	508
+Consumer 4	consumed :	509
+Producer 3	produced :	513
+Producer 3	produced :	514
+Producer 3	produced :	515
+Producer 3	produced :	516
+Producer 3	produced :	517
+Producer 3	produced :	518
+Producer 3	produced :	519
+Producer 3	produced :	520
+Producer 3	produced :	521
+Producer 1	produced :	522
+Consumer 4	consumed :	510
+Consumer 4	consumed :	511
+Consumer 4	consumed :	512
+Consumer 4	consumed :	513
+Consumer 4	consumed :	514
+Consumer 4	consumed :	515
+Consumer 4	consumed :	516
+Consumer 4	consumed :	517
+Consumer 4	consumed :	518
+Producer 4	produced :	523
+Producer 4	produced :	524
+Producer 4	produced :	525
+Producer 4	produced :	526
+Producer 4	produced :	527
+Producer 4	produced :	528
+Producer 4	produced :	529
+Producer 4	produced :	530
+Producer 1	produced :	531
+Consumer 4	consumed :	519
+Consumer 4	consumed :	520
+Consumer 4	consumed :	521
+Consumer 4	consumed :	522
+Consumer 4	consumed :	523
+Consumer 4	consumed :	524
+Consumer 4	consumed :	525
+Consumer 4	consumed :	526
+Consumer 4	consumed :	527
+Consumer 1	consumed :	528
+Producer 1	produced :	532
+Producer 1	produced :	533
+Producer 1	produced :	534
+Producer 1	produced :	535
+Producer 1	produced :	536
+Producer 1	produced :	537
+Producer 1	produced :	538
+Producer 1	produced :	539
+Producer 1	produced :	540
+Consumer 2	consumed :	529
+Consumer 2	consumed :	530
+Consumer 2	consumed :	531
+Consumer 2	consumed :	532
+Consumer 2	consumed :	533
+Consumer 2	consumed :	534
+Consumer 2	consumed :	535
+Consumer 2	consumed :	536
+Consumer 1	consumed :	537
+Producer 1	produced :	541
+Producer 1	produced :	542
+Producer 1	produced :	543
+Producer 1	produced :	544
+Producer 1	produced :	545
+Producer 1	produced :	546
+Producer 1	produced :	547
+Producer 1	produced :	548
+Producer 1	produced :	549
+Producer 3	produced :	550
+Consumer 1	consumed :	538
+Consumer 1	consumed :	539
+Consumer 1	consumed :	540
+Consumer 1	consumed :	541
+Consumer 1	consumed :	542
+Consumer 1	consumed :	543
+Consumer 1	consumed :	544
+Consumer 1	consumed :	545
+Consumer 1	consumed :	546
+Producer 4	produced :	551
+Producer 4	produced :	552
+Producer 4	produced :	553
+Producer 4	produced :	554
+Producer 4	produced :	555
+Producer 4	produced :	556
+Producer 4	produced :	557
+Producer 4	produced :	558
+Producer 3	produced :	559
+Consumer 1	consumed :	547
+Consumer 1	consumed :	548
+Consumer 1	consumed :	549
+Consumer 1	consumed :	550
+Consumer 1	consumed :	551
+Consumer 1	consumed :	552
+Consumer 1	consumed :	553
+Consumer 1	consumed :	554
+Consumer 1	consumed :	555
+Consumer 4	consumed :	556
+Producer 3	produced :	560
+Producer 3	produced :	561
+Producer 3	produced :	562
+Producer 3	produced :	563
+Producer 3	produced :	564
+Producer 3	produced :	565
+Producer 3	produced :	566
+Producer 3	produced :	567
+Producer 3	produced :	568
+Consumer 2	consumed :	557
+Consumer 2	consumed :	558
+Consumer 2	consumed :	559
+Consumer 2	consumed :	560
+Consumer 2	consumed :	561
+Consumer 2	consumed :	562
+Consumer 2	consumed :	563
+Consumer 2	consumed :	564
+Consumer 4	consumed :	565
+Producer 3	produced :	569
+Producer 3	produced :	570
+Producer 3	produced :	571
+Producer 3	produced :	572
+Producer 3	produced :	573
+Producer 3	produced :	574
+Producer 3	produced :	575
+Producer 3	produced :	576
+Producer 3	produced :	577
+Producer 1	produced :	578
+Consumer 4	consumed :	566
+Consumer 4	consumed :	567
+Consumer 4	consumed :	568
+Consumer 4	consumed :	569
+Consumer 4	consumed :	570
+Consumer 4	consumed :	571
+Consumer 4	consumed :	572
+Consumer 4	consumed :	573
+Consumer 4	consumed :	574
+Producer 4	produced :	579
+Producer 4	produced :	580
+Producer 4	produced :	581
+Producer 4	produced :	582
+Producer 4	produced :	583
+Producer 4	produced :	584
+Producer 4	produced :	585
+Producer 4	produced :	586
+Producer 1	produced :	587
+Consumer 4	consumed :	575
+Consumer 4	consumed :	576
+Consumer 4	consumed :	577
+Consumer 4	consumed :	578
+Consumer 4	consumed :	579
+Consumer 4	consumed :	580
+Consumer 4	consumed :	581
+Consumer 4	consumed :	582
+Consumer 4	consumed :	583
+Consumer 1	consumed :	584
+Producer 1	produced :	588
+Producer 1	produced :	589
+Producer 1	produced :	590
+Producer 1	produced :	591
+Producer 1	produced :	592
+Producer 1	produced :	593
+Producer 1	produced :	594
+Producer 1	produced :	595
+Producer 1	produced :	596
+Consumer 2	consumed :	585
+Consumer 2	consumed :	586
+Consumer 2	consumed :	587
+Consumer 2	consumed :	588
+Consumer 2	consumed :	589
+Consumer 2	consumed :	590
+Consumer 2	consumed :	591
+Consumer 2	consumed :	592
+Consumer 1	consumed :	593
+Producer 1	produced :	597
+Producer 1	produced :	598
+Producer 1	produced :	599
+Producer 1	produced :	600
+Producer 1	produced :	601
+Producer 1	produced :	602
+Producer 1	produced :	603
+Producer 1	produced :	604
+Producer 1	produced :	605
+Producer 3	produced :	606
+Consumer 1	consumed :	594
+Consumer 1	consumed :	595
+Consumer 1	consumed :	596
+Consumer 1	consumed :	597
+Consumer 1	consumed :	598
+Consumer 1	consumed :	599
+Consumer 1	consumed :	600
+Consumer 1	consumed :	601
+Consumer 1	consumed :	602
+Producer 4	produced :	607
+Producer 4	produced :	608
+Producer 4	produced :	609
+Producer 4	produced :	610
+Producer 4	produced :	611
+Producer 4	produced :	612
+Producer 4	produced :	613
+Producer 4	produced :	614
+Producer 3	produced :	615
+Consumer 1	consumed :	603
+Consumer 1	consumed :	604
+Consumer 1	consumed :	605
+Consumer 1	consumed :	606
+Consumer 1	consumed :	607
+Consumer 1	consumed :	608
+Consumer 1	consumed :	609
+Consumer 1	consumed :	610
+Consumer 1	consumed :	611
+Consumer 4	consumed :	612
+Producer 3	produced :	616
+Producer 3	produced :	617
+Producer 3	produced :	618
+Producer 3	produced :	619
+Producer 3	produced :	620
+Producer 3	produced :	621
+Producer 3	produced :	622
+Producer 3	produced :	623
+Producer 3	produced :	624
+Consumer 2	consumed :	613
+Consumer 2	consumed :	614
+Consumer 2	consumed :	615
+Consumer 2	consumed :	616
+Consumer 2	consumed :	617
+Consumer 2	consumed :	618
+Consumer 2	consumed :	619
+Consumer 2	consumed :	620
+Consumer 4	consumed :	621
+Producer 3	produced :	625
+Producer 3	produced :	626
+Producer 3	produced :	627
+Producer 3	produced :	628
+Producer 3	produced :	629
+Producer 3	produced :	630
+Producer 3	produced :	631
+Producer 3	produced :	632
+Producer 3	produced :	633
+Producer 1	produced :	634
+Consumer 4	consumed :	622
+Consumer 4	consumed :	623
+Consumer 4	consumed :	624
+Consumer 4	consumed :	625
+Consumer 4	consumed :	626
+Consumer 4	consumed :	627
+Consumer 4	consumed :	628
+Consumer 4	consumed :	629
+Consumer 4	consumed :	630
+Producer 4	produced :	635
+Producer 4	produced :	636
+Producer 4	produced :	637
+Producer 4	produced :	638
+Producer 4	produced :	639
+Producer 4	produced :	640
+Producer 4	produced :	641
+Producer 4	produced :	642
+Producer 1	produced :	643
+Consumer 4	consumed :	631
+Consumer 4	consumed :	632
+Consumer 4	consumed :	633
+Consumer 4	consumed :	634
+Consumer 4	consumed :	635
+Consumer 4	consumed :	636
+Consumer 4	consumed :	637
+Consumer 4	consumed :	638
+Consumer 4	consumed :	639
+Consumer 1	consumed :	640
+Producer 1	produced :	644
+Producer 1	produced :	645
+Producer 1	produced :	646
+Producer 1	produced :	647
+Producer 1	produced :	648
+Producer 1	produced :	649
+Producer 1	produced :	650
+Producer 1	produced :	651
+Producer 1	produced :	652
+Consumer 2	consumed :	641
+Consumer 2	consumed :	642
+Consumer 2	consumed :	643
+Consumer 2	consumed :	644
+Consumer 2	consumed :	645
+Consumer 2	consumed :	646
+Consumer 2	consumed :	647
+Consumer 2	consumed :	648
+Consumer 1	consumed :	649
+Producer 1	produced :	653
+Producer 1	produced :	654
+Producer 1	produced :	655
+Producer 1	produced :	656
+Producer 1	produced :	657
+Producer 1	produced :	658
+Producer 1	produced :	659
+Producer 1	produced :	660
+Producer 1	produced :	661
+Producer 3	produced :	662
+Consumer 1	consumed :	650
+Consumer 1	consumed :	651
+Consumer 1	consumed :	652
+Consumer 1	consumed :	653
+Consumer 1	consumed :	654
+Consumer 1	consumed :	655
+Consumer 1	consumed :	656
+Consumer 1	consumed :	657
+Consumer 1	consumed :	658
+Producer 4	produced :	663
+Producer 4	produced :	664
+Producer 4	produced :	665
+Producer 4	produced :	666
+Producer 4	produced :	667
+Producer 4	produced :	668
+Producer 4	produced :	669
+Producer 4	produced :	670
+Producer 3	produced :	671
+Consumer 1	consumed :	659
+Consumer 1	consumed :	660
+Consumer 1	consumed :	661
+Consumer 1	consumed :	662
+Consumer 1	consumed :	663
+Consumer 1	consumed :	664
+Consumer 1	consumed :	665
+Consumer 1	consumed :	666
+Consumer 1	consumed :	667
+Consumer 4	consumed :	668
+Producer 3	produced :	672
+Producer 3	produced :	673
+Producer 3	produced :	674
+Producer 3	produced :	675
+Producer 3	produced :	676
+Producer 3	produced :	677
+Producer 3	produced :	678
+Producer 3	produced :	679
+Producer 3	produced :	680
+Consumer 2	consumed :	669
+Consumer 2	consumed :	670
+Consumer 2	consumed :	671
+Consumer 2	consumed :	672
+Consumer 2	consumed :	673
+Consumer 2	consumed :	674
+Consumer 2	consumed :	675
+Consumer 2	consumed :	676
+Consumer 4	consumed :	677
+Producer 3	produced :	681
+Producer 3	produced :	682
+Producer 3	produced :	683
+Producer 3	produced :	684
+Producer 3	produced :	685
+Producer 3	produced :	686
+Producer 3	produced :	687
+Producer 3	produced :	688
+Producer 3	produced :	689
+Producer 1	produced :	690
+Consumer 4	consumed :	678
+Consumer 4	consumed :	679
+Consumer 4	consumed :	680
+Consumer 4	consumed :	681
+Consumer 4	consumed :	682
+Consumer 4	consumed :	683
+Consumer 4	consumed :	684
+Consumer 4	consumed :	685
+Consumer 4	consumed :	686
+Producer 4	produced :	691
+Producer 4	produced :	692
+Producer 4	produced :	693
+Producer 4	produced :	694
+Producer 4	produced :	695
+Producer 4	produced :	696
+Producer 4	produced :	697
+Producer 4	produced :	698
+Producer 1	produced :	699
+Consumer 4	consumed :	687
+Consumer 4	consumed :	688
+Consumer 4	consumed :	689
+Consumer 4	consumed :	690
+Consumer 4	consumed :	691
+Consumer 4	consumed :	692
+Consumer 4	consumed :	693
+Consumer 4	consumed :	694
+Consumer 4	consumed :	695
+Consumer 1	consumed :	696
+Producer 1	produced :	700
+Producer 1	produced :	701
+Producer 1	produced :	702
+Producer 1	produced :	703
+Producer 1	produced :	704
+Producer 1	produced :	705
+Producer 1	produced :	706
+Producer 1	produced :	707
+Producer 1	produced :	708
+Consumer 2	consumed :	697
+Consumer 2	consumed :	698
+Consumer 2	consumed :	699
+Consumer 2	consumed :	700
+Consumer 2	consumed :	701
+Consumer 2	consumed :	702
+Consumer 2	consumed :	703
+Consumer 2	consumed :	704
+Consumer 1	consumed :	705
+Producer 1	produced :	709
+Producer 1	produced :	710
+Producer 1	produced :	711
+Producer 1	produced :	712
+Producer 1	produced :	713
+Producer 1	produced :	714
+Producer 1	produced :	715
+Producer 1	produced :	716
+Producer 1	produced :	717
+Producer 3	produced :	718
+Consumer 1	consumed :	706
+Consumer 1	consumed :	707
+Consumer 1	consumed :	708
+Consumer 1	consumed :	709
+Consumer 1	consumed :	710
+Consumer 1	consumed :	711
+Consumer 1	consumed :	712
+Consumer 1	consumed :	713
+Consumer 1	consumed :	714
+Producer 4	produced :	719
+Producer 4	produced :	720
+Producer 4	produced :	721
+Producer 4	produced :	722
+Producer 4	produced :	723
+Producer 4	produced :	724
+Producer 4	produced :	725
+Producer 4	produced :	726
+Producer 3	produced :	727
+Consumer 1	consumed :	715
+Consumer 1	consumed :	716
+Consumer 1	consumed :	717
+Consumer 1	consumed :	718
+Consumer 1	consumed :	719
+Consumer 1	consumed :	720
+Consumer 1	consumed :	721
+Consumer 1	consumed :	722
+Consumer 1	consumed :	723
+Consumer 4	consumed :	724
+Producer 3	produced :	728
+Producer 3	produced :	729
+Producer 3	produced :	730
+Producer 3	produced :	731
+Producer 3	produced :	732
+Producer 3	produced :	733
+Producer 3	produced :	734
+Producer 3	produced :	735
+Producer 3	produced :	736
+Consumer 2	consumed :	725
+Consumer 2	consumed :	726
+Consumer 2	consumed :	727
+Consumer 2	consumed :	728
+Consumer 2	consumed :	729
+Consumer 2	consumed :	730
+Consumer 2	consumed :	731
+Consumer 2	consumed :	732
+Consumer 4	consumed :	733
+Producer 3	produced :	737
+Producer 3	produced :	738
+Producer 3	produced :	739
+Producer 3	produced :	740
+Producer 3	produced :	741
+Producer 3	produced :	742
+Producer 3	produced :	743
+Producer 3	produced :	744
+Producer 3	produced :	745
+Producer 1	produced :	746
+Consumer 4	consumed :	734
+Consumer 4	consumed :	735
+Consumer 4	consumed :	736
+Consumer 4	consumed :	737
+Consumer 4	consumed :	738
+Consumer 4	consumed :	739
+Consumer 4	consumed :	740
+Consumer 4	consumed :	741
+Consumer 4	consumed :	742
+Producer 4	produced :	747
+Producer 4	produced :	748
+Producer 4	produced :	749
+Producer 4	produced :	750
+Producer 4	produced :	751
+Producer 4	produced :	752
+Producer 4	produced :	753
+Producer 4	produced :	754
+Producer 1	produced :	755
+Consumer 4	consumed :	743
+Consumer 4	consumed :	744
+Consumer 4	consumed :	745
+Consumer 4	consumed :	746
+Consumer 4	consumed :	747
+Consumer 4	consumed :	748
+Consumer 4	consumed :	749
+Consumer 4	consumed :	750
+Consumer 4	consumed :	751
+Consumer 1	consumed :	752
+Producer 1	produced :	756
+Producer 1	produced :	757
+Producer 1	produced :	758
+Producer 1	produced :	759
+Producer 1	produced :	760
+Producer 1	produced :	761
+Producer 1	produced :	762
+Producer 1	produced :	763
+Producer 1	produced :	764
+Consumer 2	consumed :	753
+Consumer 2	consumed :	754
+Consumer 2	consumed :	755
+Consumer 2	consumed :	756
+Consumer 2	consumed :	757
+Consumer 2	consumed :	758
+Consumer 2	consumed :	759
+Consumer 2	consumed :	760
+Consumer 1	consumed :	761
+Producer 1	produced :	765
+Producer 1	produced :	766
+Producer 1	produced :	767
+Producer 1	produced :	768
+Producer 1	produced :	769
+Producer 1	produced :	770
+Producer 1	produced :	771
+Producer 1	produced :	772
+Producer 1	produced :	773
+Producer 3	produced :	774
+Consumer 1	consumed :	762
+Consumer 1	consumed :	763
+Consumer 1	consumed :	764
+Consumer 1	consumed :	765
+Consumer 1	consumed :	766
+Consumer 1	consumed :	767
+Consumer 1	consumed :	768
+Consumer 1	consumed :	769
+Consumer 1	consumed :	770
+Producer 4	produced :	775
+Producer 4	produced :	776
+Producer 4	produced :	777
+Producer 4	produced :	778
+Producer 4	produced :	779
+Producer 4	produced :	780
+Producer 4	produced :	781
+Producer 4	produced :	782
+Producer 3	produced :	783
+Consumer 1	consumed :	771
+Consumer 1	consumed :	772
+Consumer 1	consumed :	773
+Consumer 1	consumed :	774
+Consumer 1	consumed :	775
+Consumer 1	consumed :	776
+Consumer 1	consumed :	777
+Consumer 1	consumed :	778
+Consumer 1	consumed :	779
+Consumer 4	consumed :	780
+Producer 3	produced :	784
+Producer 3	produced :	785
+Producer 3	produced :	786
+Producer 3	produced :	787
+Producer 3	produced :	788
+Producer 3	produced :	789
+Producer 3	produced :	790
+Producer 3	produced :	791
+Producer 3	produced :	792
+Consumer 2	consumed :	781
+Consumer 2	consumed :	782
+Consumer 2	consumed :	783
+Consumer 2	consumed :	784
+Consumer 2	consumed :	785
+Consumer 2	consumed :	786
+Consumer 2	consumed :	787
+Consumer 2	consumed :	788
+Consumer 4	consumed :	789
+Producer 3	produced :	793
+Producer 3	produced :	794
+Producer 3	produced :	795
+Producer 3	produced :	796
+Producer 3	produced :	797
+Producer 3	produced :	798
+Producer 3	produced :	799
+Producer 3	produced :	800
+Producer 3	produced :	801
+Producer 1	produced :	802
+Consumer 4	consumed :	790
+Consumer 4	consumed :	791
+Consumer 4	consumed :	792
+Consumer 4	consumed :	793
+Consumer 4	consumed :	794
+Consumer 4	consumed :	795
+Consumer 4	consumed :	796
+Consumer 4	consumed :	797
+Consumer 4	consumed :	798
+Producer 4	produced :	803
+Producer 4	produced :	804
+Producer 4	produced :	805
+Producer 4	produced :	806
+Producer 4	produced :	807
+Producer 4	produced :	808
+Producer 4	produced :	809
+Producer 4	produced :	810
+Producer 1	produced :	811
+Consumer 4	consumed :	799
+Consumer 4	consumed :	800
+Consumer 4	consumed :	801
+Consumer 4	consumed :	802
+Consumer 4	consumed :	803
+Consumer 4	consumed :	804
+Consumer 4	consumed :	805
+Consumer 4	consumed :	806
+Consumer 4	consumed :	807
+Consumer 1	consumed :	808
+Producer 1	produced :	812
+Producer 1	produced :	813
+Producer 1	produced :	814
+Producer 1	produced :	815
+Producer 1	produced :	816
+Producer 1	produced :	817
+Producer 1	produced :	818
+Producer 1	produced :	819
+Producer 1	produced :	820
+Consumer 2	consumed :	809
+Consumer 2	consumed :	810
+Consumer 2	consumed :	811
+Consumer 2	consumed :	812
+Consumer 2	consumed :	813
+Consumer 2	consumed :	814
+Consumer 2	consumed :	815
+Consumer 2	consumed :	816
+Consumer 1	consumed :	817
+Producer 1	produced :	821
+Producer 1	produced :	822
+Producer 1	produced :	823
+Producer 1	produced :	824
+Producer 1	produced :	825
+Producer 1	produced :	826
+Producer 1	produced :	827
+Producer 1	produced :	828
+Producer 1	produced :	829
+Producer 3	produced :	830
+Consumer 1	consumed :	818
+Consumer 1	consumed :	819
+Consumer 1	consumed :	820
+Consumer 1	consumed :	821
+Consumer 1	consumed :	822
+Consumer 1	consumed :	823
+Consumer 1	consumed :	824
+Consumer 1	consumed :	825
+Consumer 1	consumed :	826
+Producer 4	produced :	831
+Producer 4	produced :	832
+Producer 4	produced :	833
+Producer 4	produced :	834
+Producer 4	produced :	835
+Producer 4	produced :	836
+Producer 4	produced :	837
+Producer 4	produced :	838
+Producer 3	produced :	839
+Consumer 1	consumed :	827
+Consumer 1	consumed :	828
+Consumer 1	consumed :	829
+Consumer 1	consumed :	830
+Consumer 1	consumed :	831
+Consumer 1	consumed :	832
+Consumer 1	consumed :	833
+Consumer 1	consumed :	834
+Consumer 1	consumed :	835
+Consumer 4	consumed :	836
+Producer 3	produced :	840
+Producer 3	produced :	841
+Producer 3	produced :	842
+Producer 3	produced :	843
+Producer 3	produced :	844
+Producer 3	produced :	845
+Producer 3	produced :	846
+Producer 3	produced :	847
+Producer 3	produced :	848
+Consumer 2	consumed :	837
+Consumer 2	consumed :	838
+Consumer 2	consumed :	839
+Consumer 2	consumed :	840
+Consumer 2	consumed :	841
+Consumer 2	consumed :	842
+Consumer 2	consumed :	843
+Consumer 2	consumed :	844
+Consumer 4	consumed :	845
+Producer 3	produced :	849
+Producer 3	produced :	850
+Producer 3	produced :	851
+Producer 3	produced :	852
+Producer 3	produced :	853
+Producer 3	produced :	854
+Producer 3	produced :	855
+Producer 3	produced :	856
+Producer 3	produced :	857
+Producer 1	produced :	858
+Consumer 4	consumed :	846
+Consumer 4	consumed :	847
+Consumer 4	consumed :	848
+Consumer 4	consumed :	849
+Consumer 4	consumed :	850
+Consumer 4	consumed :	851
+Consumer 2	consumed :	852
+Consumer 2	consumed :	853
+Consumer 2	consumed :	854
+Producer 4	produced :	859
+Producer 4	produced :	860
+Producer 4	produced :	861
+Producer 4	produced :	862
+Producer 4	produced :	863
+Producer 4	produced :	864
+Producer 4	produced :	865
+Producer 4	produced :	866
+Producer 1	produced :	867
+Consumer 2	consumed :	855
+Consumer 2	consumed :	856
+Consumer 2	consumed :	857
+Consumer 2	consumed :	858
+Consumer 2	consumed :	859
+Consumer 2	consumed :	860
+Consumer 2	consumed :	861
+Consumer 2	consumed :	862
+Consumer 2	consumed :	863
+Consumer 1	consumed :	864
+Producer 1	produced :	868
+Producer 1	produced :	869
+Producer 1	produced :	870
+Producer 1	produced :	871
+Producer 1	produced :	872
+Producer 1	produced :	873
+Producer 1	produced :	874
+Producer 1	produced :	875
+Producer 1	produced :	876
+Consumer 4	consumed :	865
+Consumer 4	consumed :	866
+Consumer 4	consumed :	867
+Consumer 4	consumed :	868
+Consumer 4	consumed :	869
+Consumer 4	consumed :	870
+Consumer 4	consumed :	871
+Consumer 4	consumed :	872
+Consumer 1	consumed :	873
+Producer 1	produced :	877
+Producer 1	produced :	878
+Producer 1	produced :	879
+Producer 1	produced :	880
+Producer 1	produced :	881
+Producer 1	produced :	882
+Producer 1	produced :	883
+Producer 1	produced :	884
+Producer 1	produced :	885
+Producer 3	produced :	886
+Consumer 1	consumed :	874
+Consumer 1	consumed :	875
+Consumer 1	consumed :	876
+Consumer 1	consumed :	877
+Consumer 1	consumed :	878
+Consumer 1	consumed :	879
+Consumer 1	consumed :	880
+Consumer 1	consumed :	881
+Consumer 1	consumed :	882
+Producer 4	produced :	887
+Producer 4	produced :	888
+Producer 4	produced :	889
+Producer 4	produced :	890
+Producer 4	produced :	891
+Producer 4	produced :	892
+Producer 4	produced :	893
+Producer 4	produced :	894
+Producer 3	produced :	895
+Consumer 1	consumed :	883
+Consumer 1	consumed :	884
+Consumer 1	consumed :	885
+Consumer 1	consumed :	886
+Consumer 1	consumed :	887
+Consumer 1	consumed :	888
+Consumer 1	consumed :	889
+Consumer 1	consumed :	890
+Consumer 1	consumed :	891
+Consumer 2	consumed :	892
+Producer 3	produced :	896
+Producer 3	produced :	897
+Producer 3	produced :	898
+Producer 3	produced :	899
+Producer 3	produced :	900
+Producer 3	produced :	901
+Producer 3	produced :	902
+Producer 3	produced :	903
+Producer 3	produced :	904
+Consumer 4	consumed :	893
+Consumer 4	consumed :	894
+Consumer 4	consumed :	895
+Consumer 4	consumed :	896
+Consumer 4	consumed :	897
+Consumer 4	consumed :	898
+Consumer 4	consumed :	899
+Consumer 4	consumed :	900
+Consumer 2	consumed :	901
+Producer 3	produced :	905
+Producer 3	produced :	906
+Producer 3	produced :	907
+Producer 3	produced :	908
+Producer 3	produced :	909
+Producer 3	produced :	910
+Producer 3	produced :	911
+Producer 3	produced :	912
+Producer 3	produced :	913
+Producer 1	produced :	914
+Consumer 2	consumed :	902
+Consumer 2	consumed :	903
+Consumer 2	consumed :	904
+Consumer 2	consumed :	905
+Consumer 2	consumed :	906
+Consumer 2	consumed :	907
+Consumer 2	consumed :	908
+Consumer 2	consumed :	909
+Consumer 2	consumed :	910
+Producer 4	produced :	915
+Producer 4	produced :	916
+Producer 4	produced :	917
+Producer 4	produced :	918
+Producer 4	produced :	919
+Producer 4	produced :	920
+Producer 4	produced :	921
+Producer 4	produced :	922
+Producer 1	produced :	923
+Consumer 2	consumed :	911
+Consumer 2	consumed :	912
+Consumer 2	consumed :	913
+Consumer 2	consumed :	914
+Consumer 2	consumed :	915
+Consumer 2	consumed :	916
+Consumer 2	consumed :	917
+Consumer 2	consumed :	918
+Consumer 2	consumed :	919
+Consumer 1	consumed :	920
+Producer 1	produced :	924
+Producer 1	produced :	925
+Producer 1	produced :	926
+Producer 1	produced :	927
+Producer 1	produced :	928
+Producer 1	produced :	929
+Producer 1	produced :	930
+Producer 1	produced :	931
+Producer 1	produced :	932
+Consumer 4	consumed :	921
+Consumer 4	consumed :	922
+Consumer 4	consumed :	923
+Consumer 4	consumed :	924
+Consumer 4	consumed :	925
+Consumer 4	consumed :	926
+Consumer 4	consumed :	927
+Consumer 4	consumed :	928
+Consumer 1	consumed :	929
+Producer 1	produced :	933
+Producer 1	produced :	934
+Producer 1	produced :	935
+Producer 1	produced :	936
+Producer 1	produced :	937
+Producer 1	produced :	938
+Producer 1	produced :	939
+Producer 1	produced :	940
+Producer 1	produced :	941
+Producer 3	produced :	942
+Consumer 1	consumed :	930
+Consumer 1	consumed :	931
+Consumer 1	consumed :	932
+Consumer 1	consumed :	933
+Consumer 1	consumed :	934
+Consumer 1	consumed :	935
+Consumer 1	consumed :	936
+Consumer 1	consumed :	937
+Consumer 1	consumed :	938
+Producer 4	produced :	943
+Producer 4	produced :	944
+Producer 4	produced :	945
+Producer 4	produced :	946
+Producer 4	produced :	947
+Producer 4	produced :	948
+Producer 4	produced :	949
+Producer 4	produced :	950
+Producer 3	produced :	951
+Consumer 1	consumed :	939
+Consumer 1	consumed :	940
+Consumer 1	consumed :	941
+Consumer 1	consumed :	942
+Consumer 1	consumed :	943
+Consumer 1	consumed :	944
+Consumer 1	consumed :	945
+Consumer 1	consumed :	946
+Consumer 1	consumed :	947
+Consumer 2	consumed :	948
+Producer 3	produced :	952
+Producer 3	produced :	953
+Producer 3	produced :	954
+Producer 3	produced :	955
+Producer 3	produced :	956
+Producer 3	produced :	957
+Producer 3	produced :	958
+Producer 3	produced :	959
+Producer 3	produced :	960
+Consumer 4	consumed :	949
+Consumer 4	consumed :	950
+Consumer 4	consumed :	951
+Consumer 4	consumed :	952
+Consumer 4	consumed :	953
+Consumer 4	consumed :	954
+Consumer 4	consumed :	955
+Consumer 4	consumed :	956
+Consumer 2	consumed :	957
+Producer 3	produced :	961
+Producer 3	produced :	962
+Producer 3	produced :	963
+Producer 3	produced :	964
+Producer 3	produced :	965
+Producer 3	produced :	966
+Producer 3	produced :	967
+Producer 3	produced :	968
+Producer 3	produced :	969
+Producer 1	produced :	970
+Consumer 2	consumed :	958
+Consumer 2	consumed :	959
+Consumer 2	consumed :	960
+Consumer 2	consumed :	961
+Consumer 2	consumed :	962
+Consumer 2	consumed :	963
+Consumer 2	consumed :	964
+Consumer 2	consumed :	965
+Consumer 2	consumed :	966
+Producer 4	produced :	971
+Producer 4	produced :	972
+Producer 4	produced :	973
+Producer 4	produced :	974
+Producer 4	produced :	975
+Producer 4	produced :	976
+Producer 4	produced :	977
+Producer 4	produced :	978
+Producer 1	produced :	979
+Consumer 2	consumed :	967
+Consumer 2	consumed :	968
+Consumer 2	consumed :	969
+Consumer 2	consumed :	970
+Consumer 2	consumed :	971
+Consumer 2	consumed :	972
+Consumer 2	consumed :	973
+Consumer 2	consumed :	974
+Consumer 2	consumed :	975
+Consumer 1	consumed :	976
+Producer 1	produced :	980
+Producer 1	produced :	981
+Producer 1	produced :	982
+Producer 1	produced :	983
+Producer 1	produced :	984
+Producer 1	produced :	985
+Producer 1	produced :	986
+Producer 1	produced :	987
+Producer 1	produced :	988
+Consumer 4	consumed :	977
+Consumer 4	consumed :	978
+Consumer 4	consumed :	979
+Consumer 4	consumed :	980
+Consumer 4	consumed :	981
+Consumer 4	consumed :	982
+Consumer 4	consumed :	983
+Consumer 4	consumed :	984
+Consumer 1	consumed :	985
+Producer 1	produced :	989
+Producer 1	produced :	990
+Producer 1	produced :	991
+Producer 1	produced :	992
+Producer 1	produced :	993
+Producer 1	produced :	994
+Producer 1	produced :	995
+Producer 1	produced :	996
+Producer 1	produced :	997
+Producer 3	produced :	998
+Consumer 1	consumed :	986
+Consumer 1	consumed :	987
+Consumer 1	consumed :	988
+Consumer 1	consumed :	989
+Consumer 1	consumed :	990
+Consumer 1	consumed :	991
+Consumer 1	consumed :	992
+Consumer 1	consumed :	993
+Consumer 1	consumed :	994
+Producer 4	produced :	999
+Producer 4	produced :	1000
+
+//Error condition for program 1
+fork {~/spr11/os/Prj2} > ./bb 23 4
+
+Hey argument must be 4!!
+The correct format is ./bb <# of producers> <# of consumers> <buffersize>
+// Running for program 2
+fork {~/spr11/os/Prj2} > ./mh 2
+
+You have given correct number of Arguments
+
+ Number of Days	 =	2
+
+
+
+Mother Woke up for day :	1
+
+ Mother wakes the child #1 up
+ Mother wakes the child #2 up
+ Mother wakes the child #3 up
+ Mother wakes the child #4 up
+ Mother wakes the child #5 up
+ Mother wakes the child #6 up
+ Mother wakes the child #7 up
+ Mother wakes the child #8 up
+ Mother wakes the child #9 up
+ Mother wakes the child #10 up
+ Mother wakes the child #11 up
+ Mother wakes the child #12 up
+Mother gives breakfast to child #1 
+Mother gives breakfast to child #2 
+Mother gives breakfast to child #3 
+Mother gives breakfast to child #4 
+Mother gives breakfast to child #5 
+Mother gives breakfast to child #6 
+Mother gives breakfast to child #7 
+Mother gives breakfast to child #8 
+Mother gives breakfast to child #9 
+Mother gives breakfast to child #10 
+Mother gives breakfast to child #11 
+Mother gives breakfast to child #12 
+Mother sends the child #1 to school
+Mother sends the child #2 to school
+Mother sends the child #3 to school
+Mother sends the child #4 to school
+Mother sends the child #5 to school
+Mother sends the child #6 to school
+Mother sends the child #7 to school
+Mother sends the child #8 to school
+Mother sends the child #9 to school
+Mother sends the child #10 to school
+Mother sends the child #11 to school
+Mother sends the child #12 to school
+Mother  gives dinner to child #1
+Mother  gives dinner to child #2
+Mother  gives dinner to child #3
+Mother  gives dinner to child #4
+Mother  gives dinner to child #5
+Mother  gives dinner to child #6
+Mother  gives dinner to child #7
+Mother  gives dinner to child #8
+Mother  gives dinner to child #9
+Mother  gives dinner to child #10
+Mother  gives dinner to child #11
+Mother  gives dinner to child #12
+Mother gives bath to child #1
+
+
+Father has woken up for day :	1
+
+Mother gives bath to child #2
+Father reads the child #1 a book
+Mother gives bath to child #3
+Father reads the child #2 a book
+Mother gives bath to child #4
+Father reads the child #3 a book
+Mother gives bath to child #5
+Father reads the child #4 a book
+Mother gives bath to child #6
+Father reads the child #5 a book
+Mother gives bath to child #7
+Father reads the child #6 a book
+Mother gives bath to child #8
+Father reads the child #7 a book
+Mother gives bath to child #9
+Father reads the child #8 a book
+Mother gives bath to child #10
+Father reads the child #9 a book
+Mother gives bath to child #11
+Father reads the child #10 a book
+Mother gives bath to child #12
+Father reads the child #11 a book
+
+
+Mother Woke up for day :	2
+
+ Mother wakes the child #1 up
+ Mother wakes the child #2 up
+ Mother wakes the child #3 up
+ Mother wakes the child #4 up
+ Mother wakes the child #5 up
+ Mother wakes the child #6 up
+ Mother wakes the child #7 up
+ Mother wakes the child #8 up
+ Mother wakes the child #9 up
+ Mother wakes the child #10 up
+ Mother wakes the child #11 up
+ Mother wakes the child #12 up
+Mother gives breakfast to child #1 
+Mother gives breakfast to child #2 
+Mother gives breakfast to child #3 
+Mother gives breakfast to child #4 
+Mother gives breakfast to child #5 
+Mother gives breakfast to child #6 
+Mother gives breakfast to child #7 
+Mother gives breakfast to child #8 
+Mother gives breakfast to child #9 
+Mother gives breakfast to child #10 
+Mother gives breakfast to child #11 
+Mother gives breakfast to child #12 
+Mother sends the child #1 to school
+Mother sends the child #2 to school
+Mother sends the child #3 to school
+Mother sends the child #4 to school
+Mother sends the child #5 to school
+Mother sends the child #6 to school
+Mother sends the child #7 to school
+Mother sends the child #8 to school
+Mother sends the child #9 to school
+Mother sends the child #10 to school
+Mother sends the child #11 to school
+Mother sends the child #12 to school
+Mother  gives dinner to child #1
+Mother  gives dinner to child #2
+Mother  gives dinner to child #3
+Mother  gives dinner to child #4
+Mother  gives dinner to child #5
+Mother  gives dinner to child #6
+Mother  gives dinner to child #7
+Mother  gives dinner to child #8
+Mother  gives dinner to child #9
+Mother  gives dinner to child #10
+Mother  gives dinner to child #11
+Mother  gives dinner to child #12
+Mother gives bath to child #1
+Father reads the child #12 a book
+Mother gives bath to child #2
+Father makes the child #1 sleep
+Father makes the child #2 sleep
+Father makes the child #3 sleep
+Father makes the child #4 sleep
+Father makes the child #5 sleep
+Father makes the child #6 sleep
+Father makes the child #7 sleep
+Father makes the child #8 sleep
+Father makes the child #9 sleep
+Father makes the child #10 sleep
+Father makes the child #11 sleep
+Father makes the child #12 sleep
+
+
+Father wakes the Mother and goes to sleep
+
+
+Father has woken up for day :	2
+
+Father reads the child #1 a book
+Mother gives bath to child #3
+Father reads the child #2 a book
+Mother gives bath to child #4
+Father reads the child #3 a book
+Mother gives bath to child #5
+Father reads the child #4 a book
+Mother gives bath to child #6
+Father reads the child #5 a book
+Mother gives bath to child #7
+Father reads the child #6 a book
+Mother gives bath to child #8
+Father reads the child #7 a book
+Mother gives bath to child #9
+Father reads the child #8 a book
+Mother gives bath to child #10
+Father reads the child #9 a book
+Mother gives bath to child #11
+Father reads the child #10 a book
+Mother gives bath to child #12
+Father reads the child #11 a book
+Father reads the child #12 a book
+Father makes the child #1 sleep
+Father makes the child #2 sleep
+Father makes the child #3 sleep
+Father makes the child #4 sleep
+Father makes the child #5 sleep
+Father makes the child #6 sleep
+Father makes the child #7 sleep
+Father makes the child #8 sleep
+Father makes the child #9 sleep
+Father makes the child #10 sleep
+Father makes the child #11 sleep
+Father makes the child #12 sleep
+
+
+Father wakes the Mother and goes to sleep
+
+//Error for wrong input program 2
+
+fork {~/spr11/os/Prj2} > ./mh
+
+Hey argument must be 2!!
+The correct format is ./mh <# of Days>
+
+//Running program 3
+fork {~/spr11/os/Prj2} > ./airline 25 3 4 5
+
+You have given correct number of Arguments
+
+ Number of Passengers	 =	25
+
+ Number of Baggage	 =	3
+
+ Number of Security	 =	4
+
+ Number of Attendants	 =	5
+
+
+Passenger	1 arrived and waiting for Baggage
+
+Passenger	2 arrived and waiting for Baggage
+
+Passenger	3 arrived and waiting for Baggage
+
+Passenger	#1 by baggage handler		#1
+
+Passenger	#2 by baggage handler		#2
+
+Passenger	#3 by baggage handler		#3
+
+Passenger	1 done with baggage and waiting for Security
+
+Passenger	2 done with baggage and waiting for Security
+
+Passenger	3 done with baggage and waiting for Security
+
+Passenger	4 arrived and waiting for Baggage
+
+Passenger	5 arrived and waiting for Baggage
+
+Passenger	6 arrived and waiting for Baggage
+
+Passenger	#1 by security screen		#1
+
+Passenger	#2 by security screen		#2
+
+Passenger	#3 by security screen		#3
+
+Passenger	#4 by baggage handler		#1
+
+Passenger	#5 by baggage handler		#2
+
+Passenger	#6 by baggage handler		#3
+
+Passenger	1 done with security and waiting for Attendant
+
+Passenger	2 done with security and waiting for Attendant
+
+Passenger	3 done with security and waiting for Attendant
+
+Passenger	4 done with baggage and waiting for Security
+
+Passenger	5 done with baggage and waiting for Security
+
+Passenger	6 done with baggage and waiting for Security
+
+Passenger	7 arrived and waiting for Baggage
+
+Passenger	8 arrived and waiting for Baggage
+
+Passenger	9 arrived and waiting for Baggage
+
+Passenger	#1 by flight attendant		#1
+
+Passenger	#2 by flight attendant		#2
+
+Passenger	#3 by flight attendant		#3
+
+Passenger	#4 by security screen		#4
+
+Passenger	#5 by security screen		#1
+
+Passenger	#6 by security screen		#2
+
+Passenger	#7 by baggage handler		#1
+
+Passenger	#8 by baggage handler		#2
+
+Passenger	#9 by baggage handler		#3
+
+Passenger	4 done with security and waiting for Attendant
+
+Passenger	5 done with security and waiting for Attendant
+
+Passenger	6 done with security and waiting for Attendant
+
+Passenger	7 done with baggage and waiting for Security
+
+Passenger	8 done with baggage and waiting for Security
+
+Passenger	9 done with baggage and waiting for Security
+
+Passenger	10 arrived and waiting for Baggage
+
+Passenger	11 arrived and waiting for Baggage
+
+Passenger	13 arrived and waiting for Baggage
+
+Passenger	#4 by flight attendant		#4
+
+Passenger	#5 by flight attendant		#5
+
+Passenger	#6 by flight attendant		#1
+
+Passenger	#7 by security screen		#3
+
+Passenger	#8 by security screen		#1
+
+Passenger	#9 by security screen		#2
+
+Passenger	#10 by baggage handler		#1
+
+Passenger	#11 by baggage handler		#2
+
+Passenger	#13 by baggage handler		#3
+
+Passenger	7 done with security and waiting for Attendant
+
+Passenger	8 done with security and waiting for Attendant
+
+Passenger	9 done with security and waiting for Attendant
+
+Passenger	10 done with baggage and waiting for Security
+
+Passenger	11 done with baggage and waiting for Security
+
+Passenger	15 arrived and waiting for Baggage
+
+Passenger	12 arrived and waiting for Baggage
+
+Passenger	14 arrived and waiting for Baggage
+
+Passenger	13 done with baggage and waiting for Security
+
+Passenger	#7 by flight attendant		#2
+
+Passenger	#8 by flight attendant		#3
+
+Passenger	#9 by flight attendant		#1
+
+Passenger	#10 by security screen		#4
+
+Passenger	#11 by security screen		#1
+
+Passenger	#15 by baggage handler		#1
+
+Passenger	#12 by baggage handler		#2
+
+Passenger	#14 by baggage handler		#3
+
+Passenger	#13 by security screen		#2
+
+Passenger	10 done with security and waiting for Attendant
+
+Passenger	11 done with security and waiting for Attendant
+
+Passenger	16 arrived and waiting for Baggage
+
+Passenger	20 arrived and waiting for Baggage
+
+Passenger	21 arrived and waiting for Baggage
+
+Passenger	15 done with baggage and waiting for Security
+
+Passenger	12 done with baggage and waiting for Security
+
+Passenger	14 done with baggage and waiting for Security
+
+Passenger	13 done with security and waiting for Attendant
+
+Passenger	#10 by flight attendant		#4
+
+Passenger	#11 by flight attendant		#5
+
+Passenger	#16 by baggage handler		#1
+
+Passenger	#20 by baggage handler		#2
+
+Passenger	#21 by baggage handler		#3
+
+Passenger	#15 by security screen		#3
+
+Passenger	#12 by security screen		#1
+
+Passenger	#14 by security screen		#2
+
+Passenger	#13 by flight attendant		#1
+
+Passenger	16 done with baggage and waiting for Security
+
+Passenger	18 arrived and waiting for Baggage
+
+Passenger	20 done with baggage and waiting for Security
+
+Passenger	19 arrived and waiting for Baggage
+
+Passenger	21 done with baggage and waiting for Security
+
+Passenger	17 arrived and waiting for Baggage
+
+Passenger	15 done with security and waiting for Attendant
+
+Passenger	12 done with security and waiting for Attendant
+
+Passenger	14 done with security and waiting for Attendant
+
+Passenger	#16 by security screen		#4
+
+Passenger	#18 by baggage handler		#1
+
+
+Passenger	#20 by security screen		#3
+
+Passenger	#19 by baggage handler		#2
+
+Passenger	#21 by security screen		#1
+
+Passenger	#17 by baggage handler		#3
+
+Passenger	#15 by flight attendant		#2
+
+Passenger	#12 by flight attendant		#3
+
+Passenger	#14 by flight attendant		#4
+
+Passenger	16 done with security and waiting for Attendant
+
+Passenger	23 arrived and waiting for Baggage
+
+Passenger	18 done with baggage and waiting for Security
+
+Passenger	22 arrived and waiting for Baggage
+
+Passenger	19 done with baggage and waiting for Security
+
+Passenger	24 arrived and waiting for Baggage
+
+Passenger	17 done with baggage and waiting for Security
+
+Passenger	20 done with security and waiting for Attendant
+
+Passenger	21 done with security and waiting for Attendant
+
+Passenger	#23 by baggage handler		#2
+
+Passenger	#16 by flight attendant		#5
+
+Passenger	#20 by flight attendant		#1
+
+Passenger	#18 by security screen		#2
+
+Passenger	#22 by baggage handler		#3
+
+Passenger	#24 by baggage handler		#1
+
+Passenger	#19 by security screen		#1
+
+Passenger	#17 by security screen		#3
+
+Passenger	#21 by flight attendant		#4
+
+Passenger	25 arrived and waiting for Baggage
+
+Passenger	23 done with baggage and waiting for Security
+
+Passenger	22 done with baggage and waiting for Security
+
+Passenger	18 done with security and waiting for Attendant
+
+Passenger	19 done with security and waiting for Attendant
+
+Passenger	24 done with baggage and waiting for Security
+
+Passenger	17 done with security and waiting for Attendant
+
+Passenger	#25 by baggage handler		#2
+
+Passenger	#23 by security screen		#4
+
+Passenger	#22 by security screen		#4
+
+Passenger	#24 by security screen		#2
+
+Passenger	#18 by flight attendant		#3
+
+Passenger	#19 by flight attendant		#2
+
+Passenger	#17 by flight attendant		#5
+
+Passenger	25 done with baggage and waiting for Security
+
+Passenger	23 done with security and waiting for Attendant
+
+Passenger	22 done with security and waiting for Attendant
+
+Passenger	24 done with security and waiting for Attendant
+
+Passenger	#25 by security screen		#3
+
+Passenger	#23 by flight attendant		#1
+
+Passenger	#22 by flight attendant		#1
+
+Passenger	#24 by flight attendant		#4
+
+Passenger	25 done with security and waiting for Attendant
+
+Passenger	#25 by flight attendant		#2
+
+All the Passengers are seated and the VC AIRLINES is ready to take off .Happy journey Passengers..YIPEEE
+
+//Error condition for wrong input
+
+fork {~/spr11/os/Prj2} >./airline 7 4 3
+
+Hey argument must be 5!!
+The correct format is ./airline <# of Passengers> <#of Baggage> <# of Security> <# of Flight Attendant>
+fork {~/spr11/os/Prj2} > exit
+exit
+
+Script done on Wed 06 Apr 2011 11:43:36 PM EDT

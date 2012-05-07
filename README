@@ -1,0 +1,51 @@
+Pr2README		- Project 2 ReadMe File
+Makefile		- Make File for the Project 2
+Commands:
+make
+    - to make the project
+      Creates the executable files for bb,mh and airline
+make clean
+   - to clean the project
+     In this project it removes the executables created during make
+osheaders.h		- Common header file for all the three problems
+
+Problem 1 : Bounded Buffer/Producer-Consumer
+
+bb.c   	- 		Implementation of Bounded Buffer problem
+			Producer and consumer uses common buffer and it is protected by Mutex
+To Execute 
+./bb <no of prod><no of cons><no of buffer size>
+Example
+./bb 3 5 12
+bb.c   	- Implementation of Bounded Buffer Problem using producer consumer to consume integers
+	Producer and Consumer uses a common buffer which is protected by a mutex.
+	I am printing the number 1-1000 in increasing order for easy identification instead of characters.
+
+OBSERVATION:
+
+       The Interleaving happens only after some time. The use of usleep helps to interleave very soon. The protection of bounded buffer using mutex prevents it from accessed by other threads so that the proper value is entered into the buffer. We use semaphore to wake up the producer and consumer accordingly based on buffer empty and buffer full status. When there are more number of producers than buffer, the producer has to wait till the consumer consumes them and vice versa.
+
+Probelem 2: Mother Hubbard 
+
+mh.c	-		Implementation of Mother Hubbard problem. Mother wakes up father accordingly after she gives bath to a child
+			
+To Execute 
+./mh <# of Days>
+Example
+./mh 3
+
+OBSERVATION:
+	It is observed that since the father is called when the mother gives bath, interleaving is observed. Usleep helps us see the interleaving better. Once the mother is done with all the child she is put to sleep without any busy waiting loops. It shows how the mother is woken up only after 12 children are put to sleep by the father and father is woken up every time the mother gives bath.
+
+
+Problem 3: Airline -
+airline.c   	-    Implementation of airline.c problem
+		This program is a type of sleeping barber problem with multiple barbers and multiple services.
+To Execute
+./airline <# of Passengers> <# of baggage> <# of security> <# of attendants>
+Example: 
+./airline 25 3 4 5
+
+OBSERVATION:
+	This program is a type of multiple sleeping barber problem. Here the passenger is processed randomly but the services are ordered. That is every program waits for signal from the previous thread before processing a passenger. We can see the interleaving between them using the usleep command. The real task was to make them work orderly and that was challenging. We should also make sure that the services sleep when passengers are not there. This was done with the use of semaphores and mutex.
+
